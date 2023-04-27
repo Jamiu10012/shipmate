@@ -67,7 +67,7 @@ const Home = () => {
           </div>
         </div>
         <div className="submit bor">
-          <button className="arrow">
+          <button type="submit" className="arrow">
             <AiOutlineArrowRight />
           </button>
         </div>

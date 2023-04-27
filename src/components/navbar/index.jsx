@@ -19,21 +19,21 @@ const Navbar = (props) => {
             </Link>
           </div>
           <div className="nav-learn">
-            <Link to={"/"} className="link">
+            <Link to={"/shippingdetails"} className="link">
               <button className="learn-more-btn">Learn more</button>
             </Link>
           </div>
         </div>
         <div className="navbar-btn" style={props.style1}>
           <div className="nav-login">
-            <Link to={"/"} className="link">
+            <Link to={"/shippingdetails"} className="link">
               <button className="dollar-btn">
                 <BiDollar className="dollar-icon" />
               </button>
             </Link>
           </div>
           <div className="nav-learn">
-            <Link to={"/"} className="link">
+            <Link to={"/booking"} className="link">
               <button className="track-btn">Track shipment</button>
             </Link>
           </div>
