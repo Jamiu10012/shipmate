@@ -1,0 +1,17 @@
+.footer-container {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+}
+.first img {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  top: 617px;
+}
+.second img {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  top: 630px;
+}

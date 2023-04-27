@@ -1,0 +1,117 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 841px;
+  position: absolute;
+  justify-content: space-between;
+  height: 40px;
+  left: 35px;
+  top: 20px;
+}
+.link {
+  text-decoration: none;
+}
+.logo-text {
+  color: #000;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 39px;
+}
+.logo-text span {
+  color: var(--button-background);
+}
+.navbar-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  /* margin-left: 5rem; */
+  gap: 28px;
+  height: 48px;
+}
+.login-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12.4444px 19.5556px;
+  gap: 8.89px;
+  width: 150.22px;
+  height: 48px;
+  background: #6f57e9;
+  border-radius: 12.4444px;
+  border: none;
+  color: #fff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 120%;
+  cursor: pointer;
+}
+.dollar-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 600;
+  width: 50.22px;
+  height: 48px;
+  font-size: 25px;
+  color: #6f57e9;
+  border: 3px solid #6f57e9;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.learn-more-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12.4444px 19.5556px;
+  gap: 8.89px;
+  width: 178.67px;
+  height: 48px;
+  border: 1.77778px solid #6f57e9;
+  border-radius: 12.4444px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 120%;
+  color: #000000;
+  cursor: pointer;
+}
+.track-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12.4444px 19.5556px;
+  gap: 8.89px;
+  width: 178.67px;
+  height: 48px;
+  border: 1.77778px solid #6f57e9;
+  cursor: pointer;
+  background: #6f57e9;
+  border-radius: 12.4444px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 120%;
+  color: #fff;
+}
+
+@media only screen and (max-width: 1440px) {
+  .navbar {
+    gap: 780px;
+  }
+}
